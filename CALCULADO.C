@@ -31,28 +31,28 @@ int main(){
         switch (opcion) {
             case 1:
                 printf("Resultado: %lf\n", num1+num2);
-                printf('\n');
+                printf("\n");
                 break;
             case 2:
                 printf("Resultado: %lf\n", num1 - num2);
-                printf('\n');
+                printf("\n");
                 break;
             case 3:
                 printf("Resultado: %lf\n", num1 * num2);
-                printf('\n');
+                printf("\n");
                 break;
             case 4:
                 if (num2 != 0) {
                     printf("Resultado: %lf\n", num1 / num2);
-                    printf('\n');
+                    printf("\n");
                 } else {
                     printf("Error: División por cero no permitida.\n");
-                    printf('\n');
+                    printf("\n");
                 }
                 break;
             case 5:
                 printf("Resultado: %lf\n", pow(num1, num2));
-                printf('\n');
+                printf("\n");
                 break;
             case 6:
                 if (num1 > num2) {
@@ -62,7 +62,7 @@ int main(){
                 } else {
                     printf("%lf es igual a %lf\n", num1, num2);
                 }
-                printf('\n');
+                printf("\n");
                 break;
             case 7:
                 printf("Rango entre %lf y %lf:\n", num1, num2);
@@ -70,7 +70,6 @@ int main(){
                     printf("%d ", i);
                 }
                 printf("\n");
-                printf('\n');
                 break;
             case 8:
                 printf("Saliendo del programa.\n");
